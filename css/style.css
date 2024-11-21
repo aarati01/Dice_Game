@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(105, 179, 179);
+  }
+  
+  h1 {
+    text-align: center; 
+    font-weight: bold;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    font-size: 50px;
+    color: rgb(255, 255, 0);
+    margin: 20px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .dice {
+    height: 50vh;
+    width: 50vw;
+  }
+  
+  img {
+    height: 300px;
+    width: 300px;
+  }
+  

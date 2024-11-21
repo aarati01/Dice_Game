@@ -1,34 +1,58 @@
 body {
     background-color: rgb(105, 179, 179);
-  }
-  
-  h1 {
-    text-align: center; 
+}
+
+h1 {
+    text-align: center;
     font-weight: bold;
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
     font-size: 50px;
     color: rgb(255, 255, 0);
     margin: 20px 0;
-  }
-  
-  .container {
+}
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     align-content: space-between;
-  }
-  
-  .dice {
+    margin-bottom: 80px; /* Added space to prevent overlap with button */
+}
+
+.dice {
     height: 50vh;
     width: 50vw;
     gap: 10px;
-  }
-  
-  img {
+}
+
+img {
     height: 300px;
     width: 300px;
     margin-left: 150px;
     margin-top: 150px;
-  }
-  
+}
+
+#playAgainBtn {
+    position: fixed;
+    bottom: 20px;  
+    left: 50%;
+    transform: translateX(-50%);  
+    padding: 20px 30px;
+    background-color: #ff9900;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+#playAgainBtn:hover {
+    background-color: #e68a00;
+}
+
+#playAgainBtn:active {
+    background-color: #cc7a00;
+}

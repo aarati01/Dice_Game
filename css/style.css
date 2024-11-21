@@ -16,15 +16,19 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    align-content: space-between;
   }
   
   .dice {
     height: 50vh;
     width: 50vw;
+    gap: 10px;
   }
   
   img {
     height: 300px;
     width: 300px;
+    margin-left: 150px;
+    margin-top: 150px;
   }
   
